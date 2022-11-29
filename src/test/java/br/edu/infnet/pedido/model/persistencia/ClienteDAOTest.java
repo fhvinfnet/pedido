@@ -9,7 +9,6 @@ import org.junit.Test;
 import br.edu.infnet.pedido.model.entidade.Cliente;
 
 public class ClienteDAOTest {
-
 	
 	@Before
 	public void inicializar() {
@@ -59,7 +58,7 @@ public class ClienteDAOTest {
 	public void testObterCliente() {
 		IDAO clienteDAO = new ClienteDAO();
 		List<Cliente> lista = clienteDAO.listarTodos();
-		Cliente cliente = clienteDAO.obter(lista.get(0).getCodigo());
+		Object cliente = clienteDAO.obter(lista.get(0).getCodigo());
 		Assert.assertNotNull(cliente);;
 	}
 	

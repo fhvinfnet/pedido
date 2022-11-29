@@ -26,7 +26,7 @@ public class ProdutoDAO extends JdbcDAO<Produto> {
 	}
 
 	@Override
-	public Cliente obter(Long codigo) {
+	public Produto obter(Long codigo) {
 		// TODO Auto-generated method stub
 		return null;
 	}

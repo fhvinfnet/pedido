@@ -4,6 +4,11 @@ create database app;
 
 use app;
 
+create table loja(
+    codigo int not null primary key auto_increment,
+    nome varchar(80)
+);
+
 create table cliente(
 	codigo int not null primary key auto_increment,
 	nome varchar(80)

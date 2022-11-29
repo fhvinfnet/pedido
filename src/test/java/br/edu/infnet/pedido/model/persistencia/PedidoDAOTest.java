@@ -9,7 +9,6 @@ import br.edu.infnet.pedido.model.entidade.Pedido;
 
 public class PedidoDAOTest {
 
-	
 	@Test
 	public void testListaPedidos() {
 		IDAO pediIdao = new PedidoDAO();
